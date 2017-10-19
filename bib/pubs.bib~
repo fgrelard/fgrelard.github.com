@@ -1,0 +1,16 @@
+@article{Grelard2015CAIP,
+year={2015},
+isbn={978-3-319-23116-7},
+booktitle={Computer Analysis of Images and Patterns},
+volume={9257},
+series={Lecture Notes in Computer Science},
+editor={Azzopardi, George and Petkov, Nicolai},
+doi={10.1007/978-3-319-23117-4_24},
+title={Precise Cross-Section Estimation on Tubular Organs},
+publisher={Springer International Publishing},
+author={Grélard, Florent and Baldacci, Fabien and Vialard, Anne and Lachaud, Jacques-Olivier},
+pages={277-288},
+url={../docs/caip.pdf},
+language={English}
+}
+
