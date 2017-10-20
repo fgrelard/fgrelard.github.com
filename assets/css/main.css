@@ -1423,7 +1423,8 @@ sup {
 
 hr {
 	border: 0;
-	border-top: solid 1px #eee;
+	border-top: solid 1px #ddd;
+    margin-top: 0.5em;
 }
 
 blockquote {
