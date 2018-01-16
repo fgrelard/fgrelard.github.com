@@ -59,8 +59,8 @@
           <div class="panel panel-default">
 			<div class="panel-heading" role="tab" id="headingAlgo">
 			  <h4>
-				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseAlgo" aria-expanded="true" aria-controls="collapseAlgo">
-				  Algorithms <i class="fa fa-chevron-down" aria-hidden="true"></i>
+				<a role="button" data-toggle="collapse"  data-parent="#accordion" href="#collapseAlgo" aria-expanded="true" aria-controls="collapseAlgo">
+				  Algorithms <i id="chevronAlgorithms" class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
                 <hr>                
               </h4>
@@ -80,11 +80,82 @@
                  <ul style="list-style-type:disc">
                   <li>
                     Stacks and queues
-                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td1.pdf"> </a> <br/>
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td1.pdf"> </a>
+		 <a class="fa fa-check" style="color:green" href="ens/algo/correction_td1.tar.gz" alt="Correction"> </a>  <br/> 
                   </li>
                   <li>
                     Recursivity
-                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td2.pdf"> </a> <br/>
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td2.pdf"> </a> 
+		    <a class="fa fa-check" style="color:green" href="ens/algo/correction_td_recursivite.py" alt="Correction"> </a> <br/>
+                  </li>
+ 		<li>
+                    Lists
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td3.pdf"> </a> 
+		     <a class="fa fa-check" style="color:green" href="ens/algo/correction_td_liste.py" alt="Correction"> </a>  <br/>
+                  </li>
+ 		<li>
+                    TD noté
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/td_note.pdf"> </a> <br/>
+                  </li>
+                </ul>
+		<hr>
+		
+
+<p><span class="questions">Previous tests </span> </p>
+                 <ul style="list-style-type:disc">
+                  <li> Test  
+			<a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/test1_corrige_2014.pdf"> </a> <br/>
+		  </li>
+		<li> DS1 2014 
+			<a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/ds_session_1_2014.pdf"> </a> <br/>
+		  </li>
+<li> DS2 2014 
+			<a class="fa fa-file-pdf-o" style="color:red"  href="ens/algo/ds_session_2_2014.pdf"> </a> <br/>
+		  </li>
+
+</ul>	    
+		      </div>  
+			</div>
+		  </div>
+
+  <div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="headingEven">
+			  <h4>
+				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEven" aria-expanded="true" aria-controls="collapseEven">
+				  Event-driven programming <i class="fa fa-chevron-down" aria-hidden="true"></i>
+				</a>
+                <hr>                
+              </h4>
+              <p>
+                HTML 5/CSS 3 basics for event-driven programming (Javascript).
+              </p>
+              <p>
+                <b>Level :</b> First-year MSc students in Bioinformatics
+              </p>
+			</div>
+			<div id="collapseEven" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingEven">
+			  <div class="panel-body">
+                 HTML-CSS (with blanks) 
+                 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/even/html_css.pdf"> </a> <br/>
+		Javascript
+                 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/even/even.pdf"> </a> <br/>
+                 <hr>
+                 <p><span class="questions">TP </span> </p>
+                 <ul style="list-style-type:disc">
+                  <li>
+                    TP HTML-CSS
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/even/tp1.pdf"> </a> 
+		    <a class="fa fa-file-archive-o" style="color:brown"  href="ens/even/img.zip"> </a>  <br/>
+                  </li>
+                  <li>
+                    TP Javascript 1
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/even/tp2.pdf"> </a> 
+		    <a class="fa fa-file-archive-o" style="color:brown"  href="ens/even/tp2.tar.gz"> </a>  <br/>
+                  </li>
+		<li>
+                    TP Javascript 2 (noté)
+                    <a class="fa fa-file-pdf-o" style="color:red"  href="ens/even/tpnote.pdf"> </a> 
+		    <a class="fa fa-file-archive-o" style="color:brown"  href="ens/even/tpnote.tar.gz"> </a>  <br/>
                   </li>
                 </ul> 
 			    
@@ -96,18 +167,18 @@
 			<div class="panel-heading" role="tab" id="headingGL">
 			  <h4>
 				<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseGL" aria-expanded="true" aria-controls="collapseGL">
-				  Génie Logiciel <i class="fa fa-chevron-down" aria-hidden="true"></i>
+				  Software Engineering <i class="fa fa-chevron-down" aria-hidden="true"></i>
 				</a>
                 <hr>                
               </h4>
               <p>
-                Bonnes pratiques de programmation : CMake, git, GitHub
+                Good coding practices : CMake, git, GitHub
               </p>
               <p>
-                <b>Niveau :</b> Deuxième année master bio-informatique
+                <b>Level :</b> Second-year MSc students in Bioinformatics
               </p>
 			</div>
-			<div id="collapseGL" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingGL">
+			<div id="collapseGL" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingGL">
 			  <div class="panel-body">
                 <ul style="list-style-type:disc">
                   <li>Make-CMake <a class="fa fa-file-pdf-o" style="color:red"  href="ens/gl/TP1/tp1.pdf"> </a> <a class="fa fa-file-archive-o" style="color:brown"  href="ens/gl/TP1/TP1.zip"> </a><br/></li>
@@ -129,22 +200,22 @@
 				</a>
                 <hr>
 			  </h4>
-              <p>Notions simples de rendu 3D : scène, objet, et lumière au-travers du langage WebGL et de la bibliothèque <i>Three.js</i></p> 
-              <p><b>Niveau :</b> Licence 3 Pro DAWIN </p>
+              <p>3D rendering : scene, objects, light through the WebGL language and <i>Three.js</i> library.</p> 
+              <p><b>Level :</b> Third-year BSc DAWIN </p>
 			</div>
-			<div id="collapseWebGL" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingWebGL">
+			<div id="collapseWebGL" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingWebGL">
 			  <div class="panel-body">
 				<p><span class="questions">Cours </span> </p>
                 <ul style="list-style-type:disc">
                   <li>
-			        Cours <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/webgl.pdf"> </a> <br/>
+			        Slides <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/webgl.pdf"> </a> <br/>
                   </li>
                   <li>
-                    Ombrage de Phong <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/lumiere.pdf"> </a> <br/>
+                    Phong shading <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/lumiere.pdf"> </a> <br/>
                   </li>
 
 				  <li> 
-                    Mémo WebGL <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/webgl-reference-card-1_0.pdf"> </a> <br/></li>
+                    WebGL memo card <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/webgl-reference-card-1_0.pdf"> </a> <br/></li>
                   </ul>
                 <hr>
                 <p><span class="questions">TP</span> </p>
@@ -156,27 +227,30 @@
                  
                     <!-- <a class="fa fa-check" style="color:green" href="ens/webgl/TP1/" alt="Correction"> </a>  <br/> -->
                   </li>
-                <!-- <li> -->
-				<!-- WebGL 2 -->
-                <!-- <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp2.pdf"></a> -->
-                <!-- <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/tp2.zip"> </a> -->
-                <!-- <a class="fa fa-check" style="color:green" href="ens/webgl/TP2/" alt="Correction"> </a> <br/> -->
-                <!--   </li> -->
-                <!--   <li> -->
-				<!-- WebGL 3 -->
-                <!-- <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp3.pdf"></a> <br/> -->
-                <!-- </li> -->
-                <!-- <li> -->
-				<!-- WebGL 4 -->
-                <!-- <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp4.pdf"></a> -->
-                <!-- <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/tp4.tar.gz"> </a> -->
+                  <li>
+		     WebGL 2 
+                 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp2.pdf"></a> 
+                <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/tp2.zip"> </a> 
+                <a class="fa fa-check" style="color:green" href="ens/webgl/TP2/" alt="Correction"> </a> <br/> 
+                  </li>
+                  <li>
+				 WebGL 3
+                <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp3.pdf"></a> 
+		 TP noté <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tpnote.pdf"></a> 
+                <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/mystere.tar.gz"> </a>
+		 <a class="fa fa-check" style="color:green" href="ens/webgl/TP3/" alt="Correction"> </a><br/>
+                </li>
+                <li>
+		WebGL 4
+                 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp4.pdf"></a>
+                <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/tp4.tar.gz"> </a> <br />
                 <!-- <a class="fa fa-check" style="color:green" href="ens/webgl/TP4/" alt="Correction"> </a> <br/> -->
-                <!-- </li> -->
-                <!-- <li> -->
-				<!-- WebGL 5 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp5.pdf"></a> -->
-                <!-- <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/pointage.tar.gz"> </a> <br/> -->
-                <!-- </li> -->
-                <!-- </ul> -->
+                </li>
+                <li> 
+		WebGL 5 <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tp5.pdf"></a>
+                <a class="fa fa-file-archive-o" style="color:brown"  href="ens/webgl/pointage.tar.gz"> </a> <br/> 
+                </li>
+		</ul>
                 <!-- <hr> -->
                 <!-- TP not&eacute; -->
                 <!-- <a class="fa fa-file-pdf-o" style="color:red"  href="ens/webgl/tpnote.pdf"></a> -->
@@ -193,8 +267,8 @@
 				<!-- </a> -->
 			  </h4>
               <hr>
-              <p>Programmation orientée objet : notions de classe, de responsabilité, d'héritage et de généricité en C++11 </p>
-              <p><b>Niveau : </b> Première année IUT Informatique</p>
+              <p>Object oriented programming : class, responsibility, inheritance, genericity in C++11. </p>
+              <p><b>Level : </b> First-year in IUT of Computer Science</p>
 			</div>
 			<!-- <div id="collapseOOP2014" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOOP2014"> -->
 			<!--   <div class="panel-body"> -->
@@ -213,8 +287,8 @@
 				<!-- </a> -->
 			  </h4>
               <hr>
-              <p>Bases de la programmation en C++11, algorithmique (tri, recherche) et manipulation de fichiers </p>
-              <p><b>Niveau : </b> Première année IUT Informatique</p>
+              <p>Basics in C++11 programming : algorithms (sort, search) and file manipulations. </p>
+              <p><b>Level : </b> First-year in IUT of Computer Science</p>
 			</div>
 			<!-- <div id="collapseAlgorithms2014" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAlgorithms2014"> -->
 			<!--   <div class="panel-body"> -->
@@ -233,8 +307,8 @@
 				<!-- </a>				 -->
 			  </h4>
               <hr>                
-              <p>Utilisation des systèmes Unix : architecture, manipulation des fichiers, scripts</p>
-              <p><b>Niveau : </b> Première année IUT Informatique</p>
+              <p>Usage of Unix systems : architecture, file manipulation, scripts</p>
+              <p><b>Level : </b> First-year in IUT of Computer Science</p>
 			</div>
 			<!-- <div id="collapseUnix2014" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingUnix2014"> -->
 			<!--   <div class="panel-body"> -->

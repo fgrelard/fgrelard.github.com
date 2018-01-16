@@ -1,0 +1,8 @@
+<html>
+   <body onload='main()'>
+     <script src='gl-matrix-min.js'></script>
+     <script src='https://raw.githubusercontent.com/mrdoob/three.js/master/build/three.min.js'> </script>
+     <script src='world.js'></script>
+       
+   </body>
+</html>	

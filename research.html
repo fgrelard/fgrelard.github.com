@@ -58,7 +58,7 @@
 	  <div class="banner-wrapper">
 		<div id="banner" class="box container">
 		  <h3>Research</h3>
-		  <p>I am working on the characterization of tubular volumes. This mainly revolves around geometric, and topological analysis of voxel sets (the field of Discrete Geometry). I am interested in methods being applicable to concrete datasets. Below you can find explanations about our work.</p><br/>
+		  <p>I am working on the characterization of tubular volumes. This mainly revolves around geometrical analysis of voxel sets. I am interested in methods being applicable to concrete datasets. Below you can find explanations about our work.</p><br/>
           <div class="row 200%">
 			<div class="3u 12u$(medium)">
 			  <div class="image fit">
@@ -67,17 +67,17 @@
 			</div>
 			<div class="9u 12u$(medium)">
 			  <div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingOne">
+				<div class="panel-heading" role="tab" id="headingMEDIA">
 				  <h4 class="panel-title">
-					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#orthogonalPlane" aria-controls="orthogonalPlane">
+					<a role="button" data-toggle="collapse" data-parent="#accordion" href="#media" aria-controls="media">
 					  New methods for the geometrical analysis of tubular organs
 					</a>
 					
 				  </h4>
 				  <p>This paper introduces new methods to study the shape of tubular
-                    organs.  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#orthogonalPlane" aria-expanded="true" aria-controls="orthogonalPlane"	>Learn more</a></p> 
+                    organs.  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#media" aria-expanded="true" aria-controls="media"	>Learn more</a></p> 
 				</div>
-				<div id="orthogonalPlane" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+				<div id="media" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingMEDIA">
 				  <div class="panel-body">
 					<p> This paper summarizes and extends our cross-section estimation, skeleton refinement and skeletonization methods. Extensive comparisons between each skeleton can be obtained <a href="https://fgrelard.github.io/OrthogonalPlaneBasedTools/">here</a>. </p>
 				  </div>
@@ -347,6 +347,17 @@
   $("#" + anchor).collapse('show');
   });
 </script>
-
+<script>
+  $(document).ready(function () {
+    $('a').click(function() {
+        localStorage.setItem('collapseItem', $(this).attr('href'));
+    });
+    
+    var collapseItem = localStorage.getItem('collapseItem'); 
+    if (collapseItem) {
+       $(collapseItem).collapse('show')
+    }
+})
+</script>
 </body>
 </html>
