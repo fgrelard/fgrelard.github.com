@@ -2676,3 +2676,7 @@ ol.default li {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
 }
+
+#carousel-example-generic {
+    margin-top: 10%;
+}
