@@ -42,14 +42,7 @@ $("#header-wrapper").load("header.html", function() {
 
     $(window).bind('hashchange', function(){
         $("#copyright").hide();
-        newHash = window.location.hash.substring(1);
-        if (!newHash) {
-            newHash = "";
-            let url = window.location.href.split("/");
-            let lastname = url[url.length-1];
-            newHash = "."+lastname.split(".")[0];
-            console.log(newHash);
-        }
+        newHash = window.location.hash.substring(1) || "about";
         $mainContent
             .fadeOut(300, function() {
                 $mainContent.hide();
