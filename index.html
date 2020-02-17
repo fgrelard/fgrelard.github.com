@@ -20,9 +20,9 @@
 
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link rel="stylesheet" href="assets/css/bibbase.css" type="text/css" media="screen">
-	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/main.css" />
 
 
@@ -32,110 +32,12 @@
 	<div id="page-wrapper">
 
 	  <!-- Header -->
-	  <div id="header-wrapper">
-		<header id="header" class="container">
-
-		  <!-- Logo -->
-		  <div id="logo">
-			<h2>Florent</h2>
-			<h1><a href="index.html"><span style="display:none;">Florent</span>Grélard</a></h1>
-		  </div>
-		  <p> Digital Geometry <span class="emph">&gt;</span> LaBRI <span class="emph">&gt;</span> LIRIS <span class="emph">&gt;</span> INRAE  <span class="info">florent.grelard <span class="emph">[at]</span> inrae.fr </span></p>
-		  <p class="info">+33 (0)2 40 67 52 32</p>
-		  <!-- Nav -->
-		  <nav id="nav">
-			<ul>
-			  <li class="current"><a href="index.html">Home</a></li>
-			  <li>
-				<a href="research.html">Research</a>
-			  </li>
-			  <li><a href="teaching.html">Teaching</a></li>
-			  <li><a href="publications.html">Publications</a></li>
-			</ul>
-		  </nav>
-
-		</header>
-	  </div>
+      <!-- cf. header.html file -->
+      <div id="header-wrapper"></div>
 
 	  <!-- Banner -->
-	  <div id="banner-wrapper">
-		<div id="banner" class="box container">
-		  <div class="row">
-			<div class="7u 12u(medium)">
-			  <h3>About</h3>
-			  <p>I am currently a Postdoctoral Researcher at INRAE, and member of the <a href="https://www.bibs.inrae.fr/">BIBS platform</a>. </p>
-
-              <p>Previously, I was a Postdoctoral Researcher at LIRIS, University Lumière Lyon 2. This work is part of multidisciplinary project, called Optimum and involves researchers in the fields of Computer Science, Art, Architecture, and Geography. The aim of this work is to propose a cartographic tool allowing to retrieve and cluster pictures according to their content, as opposed to their point of view. See more at [<a href="http://liris.univ-lyon2.fr/optimum/">link</a>]</p>
-
-              <p>Before that, I was a Temporary Lecturer and Research Assistant (Attaché Temporaire d'Enseignement et de Recherche) at Bordeaux University, France.</p>
-
-<p>I obtained my PhD at Bordeaux University, in the Image et Son research group at the LaBRI, under the supervision of Fabien Baldacci, Anne Vialard and Jean-Philippe Domenger.</p>
-			  
-			  <p>My PhD was about the characterization of tubular organs (such as bronchi, blood vessels, neurons...) through representations such as orthogonal planes and curve-skeletons.</p>
-
-			  <p> Previously, I did my Master's internship in Heidelberg University, in the Knop lab where my job was to automatize a microscope through automatic cell detection.</p>
-			</div>
-			<div class="5u 12u(medium)" id="carousel-wrapper">
-			  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-
-				<!-- Wrapper for slides -->
-				<div class="carousel-inner" role="listbox">
-				  <div class="item active">
-
-					<img src="images/curvevoronoi.png"/>
-					<div class="carousel-caption">
-					  Orthogonal planes and associated voronoi diagram
-					</div>
-				  </div>
-				  <div class="item">
-					<img src="images/tangent3d.png" alt="Tangent on a curve">
-					<div class="carousel-caption">
-					  Tangent of a 3D discrete curve
-					</div>
-				  </div>
-				  <div class="item">
-					<img src="images/cylindercone.png" alt="Normal cones">
-					<div class="carousel-caption">
-					  Normal cones computed on the surface of a cylinder
-					</div>
-				  </div>
-				  <div class="item">
-					<img src="images/vcmfullcloseup.jpg.png" alt="Orthogonal planes">
-					<div class="carousel-caption">
-					  Orthogonal planes computed through <a href="http://link.springer.com/chapter/10.1007/978-3-319-23117-4_24#page-1">VCM</a>
-					</div>
-				  </div>
-				  <div class="item">
-					<img src="images/skeletonBronche2.png" alt="Skeleton">
-					<div class="carousel-caption">
-					  Skeleton computation from orthogonal plane estimation
-					</div>
-				  </div>
-				</div>
-
-				<!-- Controls -->
-				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-				  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-				  <span class="sr-only">Previous</span>
-				</a>
-				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-				  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-				  <span class="sr-only">Next</span>
-				</a>
-				<!-- Indicators -->
-				<ol class="carousel-indicators">
-				  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-				  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-				  <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				  <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-				  <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-				</ol>
-			  </div>
-			</div>
-		  </div>
-		</div>
-	  </div>
+      <!-- main content dynamically updating when switching tabs -->
+      <div id="banner-wrapper"></div>
 
 	  <!-- Footer -->
 	  <div id="copyright">
@@ -146,13 +48,16 @@
 
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/js/dynamicpage.js">
+      </script>
+    <!-- <script src="assets/js/dynamicpage.js"></script> -->
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 	<script src="assets/js/main.js"></script>
 	
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 	<script type="text/javascript">
 	  $('.carousel').carousel({
 	  interval: 4000
