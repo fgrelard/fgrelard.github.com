@@ -37,17 +37,23 @@ $("#header-wrapper").load("header.html", function() {
     $("nav").delegate("a", "click", function(e) {
         e.preventDefault();
         window.location.hash = $(this).attr("href");
-        //$(window).trigger('hashchange');
         return false;
     });
 
     $(window).bind('hashchange', function(){
         $("#copyright").hide();
-        newHash = window.location.hash.substring(1) || "about.html";
+        newHash = window.location.hash.substring(1);
+        if (!newHash) {
+            newHash = "";
+            let url = window.location.href.split("/");
+            let lastname = url[url.length-1];
+            newHash = "."+lastname.split(".")[0];
+            console.log(newHash);
+        }
         $mainContent
             .fadeOut(300, function() {
                 $mainContent.hide();
-                $.ajax({url: newHash + " #banner",
+                $.ajax({url: newHash + ".html #banner",
                         success: function(data, status , jqXHR) {
                             $mainContent.html($(data).find("#banner").addBack("#banner")).fadeIn(300);
                             $("nav a").parent().removeClass("current");
