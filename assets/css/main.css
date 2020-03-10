@@ -215,6 +215,10 @@ body {
 	box-sizing: border-box;
 }
 
+p .row {
+
+}
+
 .row > * {
 	float: left;
 	-moz-box-sizing: border-box;
@@ -1878,6 +1882,10 @@ ol.default li {
 .panel-heading .info {
 	float:left;
 	color:blue;
+}
+
+h4.panel {
+    margin-top: 40px;
 }
 
 /* Header */
