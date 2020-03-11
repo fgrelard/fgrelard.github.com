@@ -2688,3 +2688,14 @@ h4.panel {
 #carousel-example-generic {
     margin-top: 10%;
 }
+
+#pubTablepubchart {
+    width:35%;
+    margin-left:33%;
+    margin-top: 40px;
+    text-align:center;
+}
+
+div.yearlabel {
+    bottom:-30px;
+}
