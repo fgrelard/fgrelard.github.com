@@ -1,5 +1,4 @@
 document.write = function(content) {
-    console.log(content);
     if (document.currentScript) {
         // var src = document.currentScript.src;
         var src = document.currentScript.src
@@ -51,12 +50,12 @@ $("#header-wrapper").load("header.html", function() {
 			}, 100);
 		});
 
-    // Dropdowns.
-	$('#nav > ul').dropotron({
-		mode: 'fade',
-		noOpenerFade: true,
-		speed: 300
-	});
+    // // Dropdowns.
+	// $('#nav > ul').dropotron({
+	// 	mode: 'fade',
+	// 	noOpenerFade: true,
+	// 	speed: 300
+	// });
 
 
 
@@ -69,7 +68,6 @@ $("#header-wrapper").load("header.html", function() {
 			'</div>'
 	)
 		.appendTo($body);
-    console.log(	$('#nav').navList());
 	// Panel.
 	$(
 		'<div id="navPanel">' +
