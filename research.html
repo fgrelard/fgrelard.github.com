@@ -7,12 +7,57 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<title>Florent Gr&eacute;lard</title>
-    <meta http-equiv="refresh" content="0; url=.#research">
+    <!-- <meta http-equiv="refresh" content="0; url=.#research"> -->
   </head>
   <body>
     <div id="banner" class="box container">
 
       <h3>Research</h3>
+
+      <h4 class="panel">Postdoc at CBMN, CNRS</h4>
+      <p>This works builds on my postdoc at INRAE. The goal was to analyse jointly immunofluorescence microscopy and mass spectrometry images, as well as MR and MS images.</p><br/>
+
+      <div class="row 200%">
+	    <div class="3u 12u$(medium)">
+	      <div class="image fit">
+		    <img src="images/rate.jpg">
+	      </div>
+	    </div>
+	    <div class="9u 12u$(medium)">
+	      <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingWheat">
+		      <h4 class="panel-title">
+			    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#wheat" aria-controls="wheat">
+			      Fusion of IF/MRI and MALDI images
+			    </a>
+
+		      </h4>
+		      <p>We use and propose carefully selected statistical methods for the joint analysis of MS images. <a role="button" data-toggle="collapse" data-parent="#accordion" href="#wheat" aria-expanded="true" aria-controls="wheat"	>Learn more</a></p>
+		    </div>
+		    <div id="wheat" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingWheat">
+		      <div class="panel-body">
+			    <p>  This work focuses mainly on statistical methods to identify ions in MSI that are specific of cellular regions in IF images. We use sequential ROC analyses, t-SNE, Kendrick-Mass defects representations... We also propose a new method to identify noisy ion images.
+
+                  In another work, we study the mouse brain through MR and MS images. One of the main challenges is the deformations that are induced during sample cutting. Traditional registration methods use similarity metrics based on image intensities. MALDI-MS and MR images have different intensity distributions that cannot be accounted for by traditional similarity metrics. We propose a novel similarity metric for deformable registration, based on the update of distance transformation values. This work was published in the <a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-48593-0_13">MIUA 2023</a> conference.
+                  <div class="image fit">
+                    <div class="rowimage">
+                      <div class="columnimage">
+                        <img src="images/msi.png" alt="MSI" />
+                      </div>
+                      <div class="columnimage">
+                        <img src="images/variational_udt.png" alt="Variational UDT" />
+                      </div>
+                    </div>
+                    <div class="carousel-caption">
+					  Precise registration result: MRI (right) to MSI (right)
+				    </div>
+                  </div>
+                </p>
+		      </div>
+		    </div>
+	      </div>
+	    </div>
+      </div>
 
       <h4 class="panel">Postdoc at INRAE</h4>
       <p>The objective of this work is to search for the chemical structures of cell wall molecules which co-localize with water in wheat grains.</p><br/>
