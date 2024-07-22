@@ -92,7 +92,10 @@ body {
 	float: left;
 	position: absolute;
 	right: 0;
+    margin-bottom: 100px;
+    display:inline;
 }
+
 
 .emph {
 	color: #e25f20;
@@ -181,6 +184,10 @@ body {
 }
 
 @media screen and (max-width: 736px) {
+
+    .info {
+        display: block;
+    }
 
 	.container.\31 25\25 {
 		width: 100%;
@@ -551,7 +558,7 @@ p .row {
 	}
 
 	.\31 2u\28xlarge\29, .\31 2u\24\28xlarge\29 {
-		width: 100%;
+		/* width: 100%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -634,7 +641,7 @@ p .row {
 	.\33 u\24\28xlarge\29 + *,
 	.\32 u\24\28xlarge\29 + *,
 	.\31 u\24\28xlarge\29 + * {
-		clear: left;
+		/* clear: left; */
 	}
 
 	.\-11u\28xlarge\29 {
@@ -766,7 +773,7 @@ p .row {
 	}
 
 	.\31 2u\28large\29, .\31 2u\24\28large\29 {
-		width: 100%;
+		/* width: 100%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -849,7 +856,7 @@ p .row {
 	.\33 u\24\28large\29 + *,
 	.\32 u\24\28large\29 + *,
 	.\31 u\24\28large\29 + * {
-		clear: left;
+		/* clear: left; */
 	}
 
 	.\-11u\28large\29 {
@@ -981,7 +988,7 @@ p .row {
 	}
 
 	.\31 2u\28medium\29, .\31 2u\24\28medium\29 {
-		width: 100%;
+		/* width: 100%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -1064,7 +1071,7 @@ p .row {
 	.\33 u\24\28medium\29 + *,
 	.\32 u\24\28medium\29 + *,
 	.\31 u\24\28medium\29 + * {
-		clear: left;
+		/* clear: left; */
 	}
 
 	.\-11u\28medium\29 {
@@ -1114,6 +1121,24 @@ p .row {
 }
 
 @media screen and (max-width: 736px) {
+
+    .\31 2u\28medium\29, .\31 2u\24\28medium\29 {
+		width: 100%;
+		clear: left;
+		margin-left: 0;
+	}
+
+
+   div.image.fit {
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .carousel {
+        width: 50%;
+        justify-content: center;
+    }
 
 	.row > * {
 		padding: 20px 0 0 20px;
@@ -1196,7 +1221,7 @@ p .row {
 	}
 
 	.\31 2u\28small\29, .\31 2u\24\28small\29 {
-		width: 100%;
+		/* width: 100%; */
 		clear: none;
 		margin-left: 0;
 	}
@@ -1279,7 +1304,7 @@ p .row {
 	.\33 u\24\28small\29 + *,
 	.\32 u\24\28small\29 + *,
 	.\31 u\24\28small\29 + * {
-		clear: left;
+		/* clear: left; */
 	}
 
 	.\-11u\28small\29 {
@@ -2146,6 +2171,11 @@ h4.panel {
 	margin-bottom:-20px;
 }
 
+.carousel {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .carousel-indicators li {
     background: #999;
 }
@@ -2165,7 +2195,7 @@ h4.panel {
 	/* Basic */
 
 	html, body {
-		overflow-x: hidden;
+		/* overflow-x: hidden; */
 	}
 
 	body, input, select, textarea {
@@ -2598,7 +2628,7 @@ h4.panel {
 	/* Wrappers */
 
 	#header-wrapper {
-		padding: 3em 0 1.5em 0;
+		padding: 3em 0 3em 0;
 	}
 
 	#features-wrapper {
@@ -2634,7 +2664,7 @@ h4.panel {
 	}
 
 	#banner p {
-		font-size: 1.5em;
+		font-size: 1.1em;
 		line-height: 1.5em;
 		margin: 0;
 	}
